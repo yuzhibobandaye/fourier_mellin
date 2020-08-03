@@ -63,6 +63,9 @@ int main(int argc, char **argv)
         std::cout << "need one image."<< std::endl;
         return -1;
     }
+    // for git test
+    std::cout<<"hello world"<<std::endl;
+
 
     cv::Mat img;
     img = imread(argv[1], cv::IMREAD_ANYDEPTH);
